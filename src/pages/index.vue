@@ -1,0 +1,83 @@
+<script setup lang="ts">
+
+</script>
+
+<template>
+  <body>
+  <header>
+    <h1>Welcome to the B2B Collaboration Platform</h1>
+    <p>Connect, collaborate, and grow your business with our platform.</p>
+    <a href="#features" class="cta-button">Learn More</a>
+  </header>
+
+  <div class="container">
+    <section id="features">
+      <h2>Key Features</h2>
+      <ul>
+        <li>Establish deals with other businesses</li>
+        <li>Create and manage coupons for customers</li>
+        <li>Track coupon usage and redemption</li>
+        <li>View analytics and insights</li>
+      </ul>
+    </section>
+
+    <section id="how-it-works">
+      <h2>How It Works</h2>
+      <ol>
+        <li>Sign up and create your business profile</li>
+        <li>Find and connect with other businesses</li>
+        <li>Establish deals and start collaborating</li>
+        <li>Monitor performance and analyze results</li>
+      </ol>
+    </section>
+
+    <section id="cta">
+      <h2>Ready to Get Started?</h2>
+      <p>Join our platform today and unlock new opportunities for your business.</p>
+      <a href="business/signup.html" class="cta-button">Sign Up Now</a>
+    </section>
+
+    <section id ="prototype">
+      <h2>Want to see how it works?</h2>
+      <a href="business/dealPage.html" class = "cta-button">Demo</a>
+    </section>
+  </div>
+  </body>
+</template>
+
+
+<style scoped>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+h1 {
+  margin-bottom: 20px;
+}
+p {
+  margin-bottom: 20px;
+}
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.cta-button:hover {
+  background-color: #0056b3;
+}
+</style>
